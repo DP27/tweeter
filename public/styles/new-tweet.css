@@ -1,0 +1,30 @@
+.new-tweet{
+    box-sizing: border-box;
+    margin-right:2em;
+    margin-left:2em;
+    background-color: #ECE8E8;
+    border-radius:6px;
+    border-style: solid;
+    border-width: 1px;
+    border-color:#d2d5db;
+  }
+  textarea{
+    width:100%;
+  }
+  form{
+    box-sizing: border-box;
+    margin-right:10px;
+    margin-left:10px;
+    margin-bottom:10px;
+  }
+  .counter{
+    float: right;
+  }
+  h2{
+    box-sizing: border-box;
+    margin-right:10px;
+    margin-left:10px;
+    border-bottom:1px solid black;
+    margin-top: 10px;
+    margin-bottom: 25px;
+  }
