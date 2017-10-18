@@ -18,7 +18,7 @@
 
     <!-- App JS -->
     <script type="text/javascript" src="/scripts/app.js"></script>
-    
+    <script type="text/javascript" src="/scripts/composer-char-counter.js"></script>
   </head>
 
   <body>
@@ -31,8 +31,6 @@
   
       <!-- Page-specific (main) content here -->
       <main class="container">
-  
-  
         <section class="new-tweet">
           <h2>Compose Tweet</h2>
           <form action="http://localhost:8080/tweets" method="post">
@@ -40,31 +38,6 @@
             <input type="submit" value="Tweet">
             <span class="counter">140</span>
           </form>
-        </section>
-  
-        <section id="tweets">
-          <article class="oldTweet">
-            <header>
-              <img src="https://vanillicon.com/d55cf8e18b47d4baaf60c006a0de39e1_50.png">
-              <span class="tweeterName">Kai Tang</span>
-              <span class="tweeterId">@kai</span>
-            </header>
-              <article>
-                <p>fsdfa</p>
-              </article>
-            <footer>
-              <span class="postTime">10 days ago</span>
-              <div class="icon">
-  
-                <i class="fa fa-flag" aria-hidden="true"></i>
-                <i class="fa fa-retweet" aria-hidden="true"></i>
-                <i class="fa fa-heart" aria-hidden="true"></i>
-  
-  
-              </div>
-  
-            </footer>
-          </article>
         </section>
       </main>
 
