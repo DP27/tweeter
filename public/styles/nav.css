@@ -30,15 +30,16 @@
 
   #nav-bar .compose-button button{
     float: right;
-    margin-top: 17px;
+    margin-top: 14px;
     color:cadetblue;
     margin-bottom: 20px;
     margin-left: 20px;
-    margin-right: 20px;
-    padding-left: 10px;
-    padding-right:10px;
-    padding-top: 10px;
-    padding-bottom: 10px; 
+    margin-right: 30px;
+    padding-left: 15px;
+    padding-right:15px;
+    padding-top: 15px;
+    padding-bottom: 15px; 
+    border-radius: 5px;
 
   }
 

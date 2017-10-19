@@ -105,6 +105,7 @@ function renderTweets(tweetsArray){
 
 
 $(document).ready(function(){
+  $(document).find('.new-tweet').find('textarea').focus();
   loadTweets();
   $( "form" ).on('submit',function( event ) {
     event.preventDefault();
@@ -115,7 +116,7 @@ $(document).ready(function(){
     }else if(text.length-5 >= 140){
       alert("Exceeded Character Limit");
     }else{
-
+    
     $.ajax({
       type: 'POST',
       url: "http://localhost:8080/tweets",
@@ -127,12 +128,27 @@ $(document).ready(function(){
     
     $(this).trigger("reset");
     $(this).find('span').text('140');
+    $(document).find('.new-tweet').find('textarea').focus();
+    
     }
   })
+  return;
 });
 
+$(document).ready(function composeTweet(){
+  $('.compose-button').on('click',function(){
 
-
+   var elem = $(document).find('.new-tweet');
+    if((elem).is(':visible')){
+      
+      (elem).slideUp();
+    }else{
+      (elem).slideDown();
+      (elem).find('textarea').focus();
+    }  
+  })  
+  });
+  
 
 
   function loadTweets(){
