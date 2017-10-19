@@ -97,10 +97,12 @@ function createTweetElement(tweet){
   
 
 function renderTweets(tweetsArray){
+    $("#empty").empty();
     tweetsArray.forEach(function(tweet){
         let retVal = createTweetElement(tweet);
         $('#empty').prepend(retVal);
     });
+  
 };
 
 
