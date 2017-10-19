@@ -109,7 +109,8 @@ $(document).ready(function(){
   $( "form" ).on('submit',function( event ) {
     event.preventDefault();
     var text= $(this).serialize();
-    if(text.length-5 == 0){
+    //let monitor = text.split('');
+    if((text.length-5 == 0) || (text=='text=%0D%0A')){
       alert("No data in the form field");
     }else if(text.length-5 >= 140){
       alert("Exceeded Character Limit");
@@ -125,7 +126,7 @@ $(document).ready(function(){
     }); 
     
     $(this).trigger("reset");
-
+    $(this).find('span').text('140');
     }
   })
 });
