@@ -106,7 +106,7 @@ $(document).ready(function(){//Waiting for DOM to load the html elements
   $( "form" ).on('submit',function(event){//Posting tweets
     event.preventDefault();
     var text= $(this).serialize(); 
-    if((retCount == 0)){
+    if((retCount === 0)){
       alert("No data in the form field");
     }else if(retCount > 140){
       alert("Exceeded Character Limit");
