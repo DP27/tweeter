@@ -7,13 +7,10 @@
   border-style: solid;
   border-width: 1px;
   border-color:#d2d5db;
-
-
 }
 
 textarea{
   width:100%;
-
 }
 
 form{
@@ -38,14 +35,10 @@ form{
   border-bottom:1px solid black;
   margin-top: 10px;
   margin-bottom: 25px;
-
 }
 
 
-
-
-
-#tweets .oldTweet{
+#tweets .oTweet{
   box-sizing: border-box;
   margin-right:2em;
   margin-left:2em;
@@ -59,72 +52,64 @@ form{
 
 }
 
-#tweets .oldTweet:hover img{
-
+#tweets .oTweet:hover img{
   opacity:1;
 }
 
-#tweets .oldTweet:hover .tweeterName{
-
+#tweets .oTweet:hover .tweeterName{
   color:#244751;
 }
 
-#tweets .oldTweet:hover .icon{
-
+#tweets .oTweet:hover .icon{
   color:#43bd9b;
 }
 
-#tweets .oldTweet:hover {
+#tweets .oTweet:hover {
   border-color:#5b6271;
   background-color:  #e8e3e3;
 }
 
 
 
-.oldTweet img{
+.oTweet img{
   opacity: 0.5;
   margin:6.5px 5px 6.5px 5px;
   float:left;
-
 }
 
 
-.oldTweet header{
+.oTweet header{
   box-sizing: border-box;
   height: 65px;
   border-bottom:1px solid #d2d5db;
-
 }
 
-.oldTweet .tweeterName{
+.oTweet .tweeterName{
   box-sizing: border-box;
   float:left;
   margin-top:10px;
   font-size:1.5em;
   font-weight:700;
   color:#6e98a5;
-
 }
 
 
-.oldTweet .tweeterId{
+.oTweet .tweeterId{
   box-sizing: border-box;
   color: #8c8585;
   float:right;
   margin-top:19px;
   margin-right:6.5px
-
-
 }
 
-.oldTweet .postTime{
+.oTweet .postTime{
   box-sizing: border-box;
   float:left;
   margin-top:10px;
   margin-left:6.5px
 }
 
-.oldTweet .icon{
+.oTweet .icon{
   box-sizing: border-box;
   float:right;
   margin-top:10px;
@@ -133,7 +118,7 @@ form{
 }
 
 
-.oldTweet footer{
+.oTweet footer{
   box-sizing: border-box;
   border-top:1px solid #d2d5db;
   height: 37px;
@@ -143,13 +128,13 @@ form{
 }
 
 
-.oldTweet article{
+.oTweet article{
   box-sizing: border-box;
   height: 98px;
   background-color: white;
 }
 
-.oldTweet p{
+.oTweet p{
   box-sizing: border-box;
   margin-left:10px;
   margin-top:0px;
