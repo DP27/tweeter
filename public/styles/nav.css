@@ -29,24 +29,35 @@
   height: 80px;
 }
 
-#nav-bar .compose-button button{
+#nav-bar .compose-button h4{
   float: right;
   margin-top: 14px;
-  color:cadetblue;
+  color:#434c4c;
   margin-bottom: 20px;
   margin-left: 20px;
   margin-right: 30px;
-  padding-left: 15px;
+  padding-left: 25px;
   padding-right:15px;
   padding-top: 15px;
   padding-bottom: 15px; 
   border-radius: 5px;
-
+  border-top:black solid;
+  border-bottom: solid black;
+  border-left: solid black;
+  border-right: solid black;
+  cursor:pointer
 }
 
 
-#nav-bar .compose-button button:hover{
+#nav-bar .compose-button h4:hover{
   opacity: 1;
-  background-color: rgb(206, 200, 189);
+  box-shadow: 0 5px 15px rgba(251, 250, 252, 0.4);
+}
 
+#nav-bar .glyphicon.glyphicon-edit{
+  float: right;
+  margin-top: 32px;
+  margin-right: -45px;
+  padding-top: 1px;
+  color: black;
 }

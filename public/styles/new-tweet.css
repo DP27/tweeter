@@ -60,13 +60,15 @@ form{
   color:#244751;
 }
 
-#tweets .oTweet:hover .icon{
+.oTweet:hover .icon{
   color:#43bd9b;
+  opacity: 1;
 }
 
 #tweets .oTweet:hover {
   border-color:#5b6271;
   background-color:  #e8e3e3;
+
 }
 
 
@@ -75,6 +77,7 @@ form{
   opacity: 0.5;
   margin:6.5px 5px 6.5px 5px;
   float:left;
+  border-radius: 4px;
 }
 
 
@@ -114,7 +117,8 @@ form{
   float:right;
   margin-top:10px;
   margin-right:6.5px;
-  color:#ffffff;
+  opacity: 0;
+
 }
 
 

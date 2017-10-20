@@ -63,9 +63,9 @@ function createTweetElement(tweet){//Creating tweets using the array retrieved f
             <footer>
                 <span class="postTime">${date}</span>
                 <div class="icon">
-                    <i class="first first-flag" aria-hidden="true"></i>
-                    <i class="first second-flag" aria-hidden="true"></i>
-                    <i class="first third-flag" aria-hidden="true"></i>
+                    <i class="fa fa-flag" aria-hidden="true"></i>
+                    <i class="fa fa-retweet" aria-hidden="true"></i>
+                    <i class="fa fa-thumbs-up" aria-hidden="true"></i>
                 </div>
             </footer>
         </article>
