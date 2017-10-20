@@ -3,7 +3,7 @@
  * jQuery is already loaded
  * Reminder: Use (and do all your DOM work in) jQuery's document ready function
  */
-
+  
   function calculateSince(timeCreated){//For timestamp converting milliseconds into years/months/days/hours/min/sec.
     var created = new Date(timeCreated);
     var seconds = Math.floor((Date.now() - created) / 1000);
@@ -131,6 +131,7 @@ $(document).ready(function(){//Waiting for DOM to load the html elements
 
 $(document).ready(function composeTweet(){//Sliding the compose tweet form up and down when compose button is pressed
   $('.compose-button').on('click',function(){
+    window.scrollTo(0, 0);
     var elem = $(document).find('.new-tweet');
     if((elem).is(':visible')){
       (elem).slideUp();
