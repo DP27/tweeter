@@ -87,6 +87,17 @@ function renderTweets(tweetsArray){//for rendering tweets
 };
 
 
+function loadTweets(){//Loading tweets
+  $.ajax({
+    type: 'GET',
+    url: "http://localhost:8080/tweets",
+    success: function(result){
+      renderTweets(result);
+    }
+  });
+};
+
+
 
 $(document).ready(function(){//Waiting for DOM to load the html elements
   var retCount = 0;
@@ -145,12 +156,4 @@ $(document).ready(function composeTweet(){//Sliding the compose tweet form up an
 
 
 
-function loadTweets(){//Loading tweets
-  $.ajax({
-    type: 'GET',
-    url: "http://localhost:8080/tweets",
-    success: function(result){
-      renderTweets(result);
-    }
-  });
-}
+
