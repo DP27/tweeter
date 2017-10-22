@@ -15,3 +15,9 @@ This repository is the starter code for the project: Students will fork and clon
 
 - Express
 - Node 5.10.x or above
+- Mongodb
+
+## Screenshots
+
+![tweeter tweets](https://github.com/DP27/tweeter/blob/master/docs/tweets.png?raw=true)
+![tweeter compose tweet](https://github.com/DP27/tweeter/blob/master/docs/compose_tweets.png?raw=true)
